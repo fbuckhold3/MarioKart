@@ -25,8 +25,7 @@ colnames2 <- c('day', 'date', 'tot_red', 'new_red', 'tot_green', 'new_green', 't
 colnames(data.19) <- colnames2
 data.19 <- data.19[-c(1, 368:399),]
 
-sapply(data.19, class)
-sapply(data.20, class)
+### Data processing
 
 data.19$date <- mdy(data.19$date)
 data.19$month <- month(ymd(data.19$date), label = TRUE, abbr = FALSE)
@@ -48,9 +47,11 @@ data.19.t <- data.19.f[, c("date", "tot_red", "tot_green", "tot_white","tot_brow
 data.20.t <- data.20.f[, c("date", "tot_red", "tot_green", "tot_white","tot_brown", "tot_yell", "month", "AY" )]
 data.21.t <- data.21.f[, c("date", "tot_red", "tot_green", "tot_white","tot_brown", "tot_yell", "month", "AY" )]
 
+### Define datasets pre and post intervention:
+# Preintervention
 data.20.t %>%
   subset(date <= '2020-03-31') -> df.pre
-
+# Postintervention
 data.20.t %>%
   subset(date >= '2020-04-01') -> df.post
 
@@ -80,6 +81,8 @@ post %>%
 pre[,c("tot_red", "tot_green", "tot_white","tot_brown", "tot_yell")] <-list(NULL)
 post[,c("tot_red", "tot_green", "tot_white", "tot_yell")] <- list(NULL)
 post <- post[-c(455),]
+
+### Impute missing data via Monte Carlo approach using the MICE package
   
 imp.pre <- mice(pre, m=5, maxit=40)
 pre.fin <- complete(imp.pre)
@@ -88,35 +91,57 @@ pre.fin <- complete(imp.pre)
 imp.post <- mice(post, m=5, maxit=40)
 post.fin <- complete(imp.post)
 
+### Sum up totals per row:
 pre.fin$total <- rowSums(pre.fin[,4:8])
 post.fin$total <- rowSums(post.fin[,4:7])
+
+### Calculate patients per team, mean and median:
 pre.fin$ptperteam <- pre.fin$total/5
 post.fin$ptperteam <- post.fin$total/4
-pre.fin$ptdays <- pre.fin$ptperteam * 24
-post.fin$ptdays <- post.fin$ptperteam *22.5
-
-median(pre.fin$total)/5
-median(post.fin$total)/4
 
 
+summary(pre.fin)
+summary(post.fin)
 
-ggplot(data=pre.fin, aes(x=date, y = total)) + 
-  geom_bar(stat = 'identity')
 
-plot2 <- ggplot(NULL, aes(x=date, y=ptperteam)) + 
-    geom_line(data = pre.fin) +
-    geom_line(data = post.fin) +
-    scale_color_discrete(labels=c('Pre', 'Post'), values = c("blue", "red")) +
-    labs(title = "Patients per Team", x='Date', y="Patients per Team")
-plot2
+13.5*22.5
+12.25*22.5
+14.75*22.5
 
-boxplot <- ggplot(NULL, aes(x=date, y=ptperteam)) + 
-  geom_boxplot(data = pre.fin) +
-  geom_boxplot(data = post.fin) +
-  labs(title = "Patients per Team", x='Date', y="Patients per Team")
+12*24
+10.6*24
+13.4*24
+
+colnames(pre.fin)
+
+### Graphing results:
+## box plots of average daily census
+pre.fin %>%
+  select(red, green, white, brown, yellow) %>%
+  pivot_longer(., cols = c(red, green, white, brown, yellow), names_to = 'Team', values_to = 'Avg Daily Census') %>%
+  ggplot(aes(x = Team, y= `Avg Daily Census`)) + geom_boxplot(fill = c('chocolate4', 'green','red', 'white', 'yellow'), alpha=0.3) + labs(title= "Average Daily Census before implementating the MarioKart System", subtitle = "(Five inpatient teams)") + theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
+  
+post.fin %>%
+  select(red, green, white, yellow) %>%
+  pivot_longer(., cols = c(red, green, white, yellow), names_to = 'Team', values_to = 'Avg Daily Census') %>%
+  ggplot(aes(x = Team, y= `Avg Daily Census`)) + geom_boxplot(fill = c('green','red', 'white', 'yellow'), alpha=0.3) + labs(title= "Average Daily Census after implementating the MarioKart System", subtitle = "(Four inpatient teams)") + theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
+
+ggplot(NULL, )
+
+# Rolling census
+
+
+
+boxplot <- ggplot(NULL, aes(x=date, y=total)) + 
+  geom_boxplot(data = pre.fin, fill = '#619CFF') +
+  geom_boxplot(data = post.fin, fill = '#00BA38') +
+  labs(title = "Comparison of Daily Census", y="Number of patients")
+
 
 boxplot
 
+
+### Code for dynmaic graph
 ggplot( aes(x=, y=value, fill=name)) +
   geom_boxplot() +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
