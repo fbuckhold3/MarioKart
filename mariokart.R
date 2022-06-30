@@ -26,6 +26,7 @@ colnames(data.19) <- colnames2
 data.19 <- data.19[-c(1, 368:399),]
 
 ### Data processing
+### Convert text dates to date format
 
 data.19$date <- mdy(data.19$date)
 data.19$month <- month(ymd(data.19$date), label = TRUE, abbr = FALSE)
@@ -37,6 +38,8 @@ data.21$month <- month(ymd(data.21$date), label = TRUE, abbr = FALSE)
 data.19$AY <- 2019
 data.20$AY <- 2020
 data.21$AY <- 2021
+
+### Remove totals so missing data can be imputed, then create datasets for mice package to impute missing values
 
 data.19.f <- within(data.19, rm('cens_cons', 'cens_tot', 'cens_new'))
 data.20.f <- within(data.20, rm('cens_cons', 'cens_tot', 'cens_new'))
@@ -55,13 +58,12 @@ data.20.t %>%
 data.20.t %>%
   subset(date >= '2020-04-01') -> df.post
 
+### Create finalized datasets, one for the days before the start of the intervention of the model and one for post-intervention. Will remove excess columns and data that was part of previous datasets so as not to confound imputation via mice package. 
+
 pre <- rbind(data.19.t, df.pre)
 post <- rbind(df.post, data.21.t)
-sapply(pre, class)
-
 
 post[,c("tot_brown")] <- list(NULL)
-
 
 pre %>%
   mutate(
@@ -95,38 +97,42 @@ post.fin <- complete(imp.post)
 pre.fin$total <- rowSums(pre.fin[,4:8])
 post.fin$total <- rowSums(post.fin[,4:7])
 
-### Calculate patients per team, mean and median:
+### Calculate patients per team, mean and median. Data named pre.fin is before implementation of new schedule, post.fin is after. 
 pre.fin$ptperteam <- pre.fin$total/5
 post.fin$ptperteam <- post.fin$total/4
 
-
+## Descriptive statistics
 summary(pre.fin)
 summary(post.fin)
 
+### Simple calculations comparing median patient census (could alternately )
 
-13.5*22.5
-12.25*22.5
-14.75*22.5
+### Pre (24 days working) patients 
+median(pre.fin$ptperteam)*24
+quantile(pre.fin$ptperteam, 0.25)*24
+quantile(pre.fin$ptperteam, 0.75)*24
 
-12*24
-10.6*24
-13.4*24
+### Post (22.5 days working) patients
+median(post.fin$ptperteam)*22.5
+quantile(post.fin$ptperteam, 0.25)*22.5
+quantile(post.fin$ptperteam, 0.75)*22.5
 
-colnames(pre.fin)
+### Examine difference in patients per team for statistical significance
+t.test(pre.fin$ptperteam, post.fin$ptperteam, alternative = "two.sided", var.equal = FALSE)
+t.test(pre.fin$ptperteam*24, post.fin$ptperteam*22.5, alternative = "two.sided", var.equal = FALSE)
 
 ### Graphing results:
 ## box plots of average daily census
 pre.fin %>%
   select(red, green, white, brown, yellow) %>%
   pivot_longer(., cols = c(red, green, white, brown, yellow), names_to = 'Team', values_to = 'Avg Daily Census') %>%
-  ggplot(aes(x = Team, y= `Avg Daily Census`)) + geom_boxplot(fill = c('chocolate4', 'green','red', 'white', 'yellow'), alpha=0.3) + labs(title= "Average Daily Census before implementating the MarioKart System", subtitle = "(Five inpatient teams)") + theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
+  ggplot(aes(x = Team, y= `Avg Daily Census`)) + geom_boxplot(fill = c('chocolate4', 'green','red', 'white', 'yellow'), alpha=0.3) + labs(title= "Box-plot of Average Daily Census before implementating the MarioKart System", subtitle = "(Five inpatient teams)") + theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
   
 post.fin %>%
   select(red, green, white, yellow) %>%
   pivot_longer(., cols = c(red, green, white, yellow), names_to = 'Team', values_to = 'Avg Daily Census') %>%
-  ggplot(aes(x = Team, y= `Avg Daily Census`)) + geom_boxplot(fill = c('green','red', 'white', 'yellow'), alpha=0.3) + labs(title= "Average Daily Census after implementating the MarioKart System", subtitle = "(Four inpatient teams)") + theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
+  ggplot(aes(x = Team, y= `Avg Daily Census`)) + geom_boxplot(fill = c('green','red', 'white', 'yellow'), alpha=0.3) + labs(title= "Box-plot of Average Daily Census after implementating the MarioKart System", subtitle = "(Four inpatient teams)") + theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
 
-ggplot(NULL, )
 
 # Rolling census
 
@@ -135,42 +141,23 @@ ggplot(NULL, )
 boxplot <- ggplot(NULL, aes(x=date, y=total)) + 
   geom_boxplot(data = pre.fin, fill = '#619CFF') +
   geom_boxplot(data = post.fin, fill = '#00BA38') +
-  labs(title = "Comparison of Daily Census", y="Number of patients")
+  labs(title = "Comparison of Total Daily Census", y="Number of patients") +
+  theme(plot.title = element_text(hjust = 0.5))
+        
 
 
 boxplot
 
+boxplot2 <- ggplot(NULL, aes(x=date, y=ptperteam)) + 
+  geom_boxplot(data = pre.fin, fill = '#619CFF') +
+  geom_boxplot(data = post.fin, fill = '#00BA38') +
+  labs(title = "Comparison of Resident Daily Census", y="Team Census", x = 'Duration') +
+  theme(plot.title = element_text(hjust = 0.5))
+        
 
-### Code for dynmaic graph
-ggplot( aes(x=, y=value, fill=name)) +
-  geom_boxplot() +
-  scale_fill_viridis(discrete = TRUE, alpha=0.6) +
-  geom_jitter(color="black", size=0.4, alpha=0.9) +
-  theme_ipsum() +
-  theme(
-    legend.position="none",
-    plot.title = element_text(size=11)
-  ) +
-  ggtitle("A boxplot with jitter") +
-  xlab("")
-
-
-don <- bind_rows(pre.fin, post.fin)
-colnames(don)
-don <- don[,c("date", "ptperteam")]
-
-library(dygraphs)
-library(xts)
-
-neat <- xts(x = don$ptperteam, order.by = don$date)           
-p <- dygraph(neat) %>%
-  dyOptions(labelsUTC = TRUE, fillGraph=TRUE, fillAlpha=0.1, drawGrid = FALSE, colors="#D8AE5A") %>%
-  dyRangeSelector() %>%
-  dyCrosshair(direction = "vertical") %>%
-  dyHighlight(highlightCircleSize = 5, highlightSeriesBackgroundAlpha = 0.2, hideOnMouseOut = FALSE)  %>%
-  dyRoller(rollPeriod = 1)
+boxplot2
 
 
 
-library(htmlwidgets)
-saveWidget(p, file=paste0(getwd(), "/dygraphs318.html"))
+
+
