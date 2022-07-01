@@ -136,26 +136,25 @@ post.fin %>%
 
 # Rolling census
 
+pre.fin$Schedule <- 'Traditional'
+post.fin$Schedule <- 'Matrix'
+plot.data <- bind_rows(pre.fin, post.fin)
 
-
-boxplot <- ggplot(NULL, aes(x=date, y=total)) + 
-  geom_boxplot(data = pre.fin, fill = '#619CFF') +
-  geom_boxplot(data = post.fin, fill = '#00BA38') +
+boxplot <- ggplot(plot.data, aes(x=Schedule, y=total, fill=Schedule))+
+  geom_boxplot() +
   labs(title = "Comparison of Total Daily Census", y="Number of patients") +
-  theme(plot.title = element_text(hjust = 0.5))
-        
-
-
+  theme(plot.title = element_text(hjust = 0.5), ) +
+  scale_fill_discrete(name="")
 boxplot
 
-boxplot2 <- ggplot(NULL, aes(x=date, y=ptperteam)) + 
-  geom_boxplot(data = pre.fin, fill = '#619CFF') +
-  geom_boxplot(data = post.fin, fill = '#00BA38') +
-  labs(title = "Comparison of Resident Daily Census", y="Team Census", x = 'Duration') +
-  theme(plot.title = element_text(hjust = 0.5))
-        
+boxplot2 <- ggplot(plot.data, aes(x=Schedule, y=ptperteam, fill=Schedule))+
+  geom_boxplot() +
+  labs(title = "Comparison of Resident Daily Census", y="Number of patients") +
+  theme(plot.title = element_text(hjust = 0.5), ) +
+  scale_fill_discrete(name="")
 
 boxplot2
+
 
 
 
