@@ -1,0 +1,399 @@
+﻿Status,Rule,Description,Duty Type,Log Date,Rotation
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 9/19/2018 12:00 AM And 9/19/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,9/19/18 6:00,MED:IM:SLUH:MICU
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 1/25/2019 7:00 AM And 1/25/2019 1:00 PM. Should Have 8 Hrs.,Continuity Clinic,1/25/19 13:00,MED:IM:SLUH:ED
+PRG 1,ACGME 80 Hour,81 Hours Logged. Hours Allowed: 80,Duty Shift,7/26/20 7:00,MED:IM:SLUH:RED
+PRG 1,ACGME 80 Hour,331.93 Hours Logged. Hours Allowed: 320,Duty Shift,12/13/20 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME 80 Hour,166 Hours Logged. Hours Allowed: 149,Duty Shift,8/10/18 6:00,MED:IM:SLUH:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/8/2018 10:00 PM And 9/9/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,9/9/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/9/2018 10:00 PM And 9/10/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,9/10/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/13/2018 10:00 PM And 9/14/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,9/14/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/24/2018 10:00 PM And 9/25/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,9/25/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/28/2018 10:00 PM And 9/29/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,9/29/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 1/27/2019 12:00 AM And 1/27/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/27/19 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME 80 Hour,73 Hours Logged. Hours Allowed: 69,Duty Shift,9/5/19 19:00,MED:IM:VAMC:A TEAM
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 12/19/2019 11:00 PM And 12/20/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/20/19 6:00,MED:IM:SLUH:YELLOW
+PRG 3,ACGME 80 Hour,65 Hours Logged. Hours Allowed: 57,Duty Shift,10/18/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME 80 Hour,81 Hours Logged. Hours Allowed: 80,Duty Shift,3/7/21 6:00,MED:IM:SLUH:RED
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 1/10/2019 11:00 PM And 1/11/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/11/19 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 1/17/2019 11:00 PM And 1/18/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,1/18/19 5:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/11/2019 11:00 PM And 8/12/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/12/19 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 9/9/2019 10:00 PM And 9/10/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,9/10/19 5:00,MED:IM:SLUH:ACS DOB
+PRG 3,ACGME 80 Hour,84 Hours Logged. Hours Allowed: 80,Duty Shift,5/2/21 6:00,MED:IM:SLUH:RED
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 8/10/2019 11:00 PM And 8/11/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/11/19 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7.93 Hrs Off Between 12/2/2019 10:34 PM And 12/3/2019 6:30 AM. Should Have 8 Hrs.,Duty Shift,12/3/19 6:30,MED:IM:SLUH:RED
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 7/4/2020 10:00 PM And 7/5/2020 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/5/20 5:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 7/12/2020 10:00 PM And 7/13/2020 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/13/20 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6.17 Hrs Off Between 12/5/2019 11:50 PM And 12/6/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/6/19 6:00,MED:IM:VAMC:B TEAM
+PRG 1,ACGME Short Break,Only 6.75 Hrs Off Between 12/9/2019 11:15 PM And 12/10/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/10/19 6:00,MED:IM:VAMC:B TEAM
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 7/13/2020 12:00 AM And 7/13/2020 7:00 AM. Should Have 8 Hrs.,Duty Shift,7/13/20 7:00,MED:IM:VAMC:A TEAM
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 12/22/2018 12:00 AM And 12/22/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,12/22/18 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 7/9/2018 11:00 PM And 7/10/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/10/18 5:00,MED:IM:SLUH:WHITE
+PRG 3,ACGME Short Break,Only 3 Hrs Off Between 7/15/2018 2:00 AM And 7/15/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/15/18 5:00,MED:IM:SLUH:WHITE
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 7/19/2018 10:00 PM And 7/20/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/20/18 5:00,MED:IM:SLUH:WHITE
+PRG 3,ACGME 80 Hour,339 Hours Logged. Hours Allowed: 331,Call (in-house),7/29/18 5:00,MED:IM:SLUH:WHITE
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 10/25/2018 11:00 PM And 10/26/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,10/26/18 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 10/30/2018 11:00 PM And 10/31/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,10/31/18 5:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 2/21/2019 10:00 PM And 2/22/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,2/22/19 5:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 5 Hrs Off Between 3/2/2019 1:00 AM And 3/2/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,3/2/19 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 4/9/2019 11:00 PM And 4/10/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,4/10/19 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 4/13/2019 10:00 PM And 4/14/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,4/14/19 5:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 4/17/2019 11:00 PM And 4/18/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,4/18/19 5:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME 80 Hour,321 Hours Logged. Hours Allowed: 320,Duty Shift,2/10/19 6:00,MED:IM:SLUH:MICU
+PRG 3,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Night Float,12/20/19 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 3,ACGME Short Break,Only 7.5 Hrs Off Between 8/28/2018 11:00 PM And 8/29/2018 6:30 AM. Should Have 8 Hrs.,Duty Shift,8/29/18 6:30,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 7.5 Hrs Off Between 9/13/2018 11:00 PM And 9/14/2018 6:30 AM. Should Have 8 Hrs.,Duty Shift,9/14/18 6:30,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 4.5 Hrs Off Between 9/18/2018 2:30 AM And 9/18/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,9/18/18 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME 80 Hour,333 Hours Logged. Hours Allowed: 320,Duty Shift,9/23/18 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 7.5 Hrs Off Between 1/8/2019 11:30 PM And 1/9/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,1/9/19 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/2/2018 10:00 PM And 12/3/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/3/18 5:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME 80 Hour,78 Hours Logged. Hours Allowed: 69,Duty Shift,12/28/18 5:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 12/28/2018 12:00 AM And 12/28/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/28/18 5:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME 80 Hour,329 Hours Logged. Hours Allowed: 320,Duty Shift,3/27/19 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 12/7/2019 11:00 PM And 12/8/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/8/19 5:00,MED:IM:SLUH:BRONZE
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 12/27/2019 1:00 PM And 12/27/2019 7:00 PM. Should Have 8 Hrs.,Night Float,12/27/19 19:00,MED:IM:SLUH:NEPHRO CONSULTS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 1/14/2020 10:00 PM And 1/15/2020 5:00 AM. Should Have 8 Hrs.,Duty Shift,1/15/20 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 1/19/2020 10:00 PM And 1/20/2020 5:00 AM. Should Have 8 Hrs.,Duty Shift,1/20/20 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 1/21/2020 10:00 PM And 1/22/2020 5:00 AM. Should Have 8 Hrs.,Duty Shift,1/22/20 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 9/28/2018 11:00 PM And 9/29/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,9/29/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 4 Hrs Off Between 4/21/2021 4:00 PM And 4/21/2021 8:00 PM. Should Have 8 Hrs.,Duty Shift,4/21/21 20:00,MED:IM:SLUH:ENDO CLINIC
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 7/6/2019 11:00 PM And 7/7/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/7/19 5:00,MED:IM:SLUH:BROWN
+PRG 1,ACGME 80 Hour,165 Hours Logged. Hours Allowed: 160,Duty Shift,7/14/19 5:00,MED:IM:SLUH:BROWN
+PRG 2,ACGME 80 Hour,82 Hours Logged. Hours Allowed: 80,Duty Shift,10/1/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 12/21/2020 11:00 PM And 12/22/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/22/20 6:00,MED:IM:VAMC:HEM/ONC ELECTIVE
+PRG 2,ACGME 80 Hour,61 Hours Logged. Hours Allowed: 57,Duty Shift,8/12/19 6:00,MED:IM:SLUH:BRONZE
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 7/22/2018 11:00 PM And 7/23/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/23/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/10/2018 11:00 PM And 12/11/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/11/18 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 6/5/2019 1:00 AM And 6/5/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,6/5/19 6:00,MED:IM:VAMC:B TEAM
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 6/8/2019 11:00 PM And 6/9/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,6/9/19 6:00,MED:IM:VAMC:B TEAM
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/3/2019 10:00 PM And 8/4/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/4/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/6/2019 10:00 PM And 8/7/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/7/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/8/2019 10:00 PM And 8/9/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/9/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/15/2019 11:00 PM And 8/16/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/16/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 8/19/2019 11:00 PM And 8/20/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/20/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME 80 Hour,349 Hours Logged. Hours Allowed: 320,Duty Shift,8/23/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME 80 Hour,65 Hours Logged. Hours Allowed: 57,Duty Shift,5/14/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 7/25/2020 1:00 AM And 7/25/2020 7:00 AM. Should Have 8 Hrs.,Duty Shift,7/25/20 7:00,MED:IM:VAMC:B TEAM
+PRG 1,ACGME 80 Hour,83.33 Hours Logged. Hours Allowed: 80,Duty Shift,7/12/20 6:30,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 8/1/2019 11:00 PM And 8/2/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/2/19 6:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME 80 Hour,77 Hours Logged. Hours Allowed: 69,Night Float,7/31/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 10/8/2020 11:30 PM And 10/9/2020 6:30 AM. Should Have 8 Hrs.,Duty Shift,10/9/20 6:30,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 1/8/2020 11:00 PM And 1/9/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/9/20 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME 80 Hour,64 Hours Logged. Hours Allowed: 57,Night Float,12/7/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME Short Break,Only 3 Hrs Off Between 7/31/2018 3:00 AM And 7/31/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/31/18 6:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 8/1/2018 1:00 AM And 8/1/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,8/1/18 7:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 8/2/2018 12:00 AM And 8/2/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/2/18 6:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 8/5/2018 12:00 AM And 8/5/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/5/18 6:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/5/2018 11:00 PM And 8/6/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/6/18 6:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 8/7/2018 12:00 AM And 8/7/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/7/18 6:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/7/2018 11:00 PM And 8/8/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/8/18 6:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 8/10/2018 12:00 AM And 8/10/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/10/18 6:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME 80 Hour,373 Hours Logged. Hours Allowed: 320,Call (in-house),8/24/18 6:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 9/28/2018 1:00 AM And 9/28/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,9/28/18 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 10/2/2018 12:00 AM And 10/2/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,10/2/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 10/5/2018 12:00 AM And 10/5/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,10/5/18 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME 80 Hour,337 Hours Logged. Hours Allowed: 320,Call (in-house),10/21/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 11/27/2018 1:00 AM And 11/27/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,11/27/18 7:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 1/19/2019 11:00 PM And 1/20/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/20/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 1/30/2019 11:00 PM And 1/31/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,1/31/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 1/31/2019 10:00 PM And 2/1/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,2/1/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 5 Hrs Off Between 2/3/2019 12:00 AM And 2/3/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,2/3/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 5 Hrs Off Between 2/4/2019 1:00 AM And 2/4/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,2/4/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 2/7/2019 12:00 AM And 2/7/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,2/7/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME 80 Hour,381.5 Hours Logged. Hours Allowed: 320,Duty Shift,2/9/19 17:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 6/8/2019 11:00 PM And 6/9/2019 5:00 AM. Should Have 8 Hrs.,Call (in-house),6/9/19 5:00,MED:IM:SLUH:BRONZE
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 11/14/2019 12:00 AM And 11/14/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,11/14/19 7:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME Short Break,Only 7.5 Hrs Off Between 7/22/2019 10:30 PM And 7/23/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/23/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME 80 Hour,320.5 Hours Logged. Hours Allowed: 320,Call (in-house),7/28/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 7/29/2019 1:00 PM And 7/29/2019 7:00 PM. Should Have 8 Hrs.,Night Float,7/29/19 19:00,MED:IM:SLUH:ECHO
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 7/30/2019 7:00 AM And 7/30/2019 1:00 PM. Should Have 8 Hrs.,Duty Shift,7/30/19 13:00,MED:IM:SLUH:ECHO
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 9/9/2019 11:00 PM And 9/10/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,9/10/19 6:00,MED:IM:VAMC:C TEAM
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 10/22/2019 11:00 PM And 10/23/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,10/23/19 5:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 5 Hrs Off Between 10/31/2019 12:00 AM And 10/31/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,10/31/19 5:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 11/13/2019 11:00 PM And 11/14/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,11/14/19 5:00,MED:IM:SLUH:MICU
+PRG 2,ACGME 80 Hour,328 Hours Logged. Hours Allowed: 320,Call (in-house),11/17/19 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 4/17/2020 1:00 PM And 4/17/2020 7:00 PM. Should Have 8 Hrs.,Night Float,4/17/20 19:00,MED:IM:SLUH:AMBULATORY CARE
+PRG 3,ACGME 80 Hour,66.25 Hours Logged. Hours Allowed: 57,Night Float,11/20/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 7/18/2019 11:00 PM And 7/19/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/19/19 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 7/22/2019 11:00 PM And 7/23/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/23/19 6:00,MED:IM:SLUH:MICU
+PRG 3,ACGME 80 Hour,73 Hours Logged. Hours Allowed: 69,Duty Shift,8/17/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 3,ACGME 80 Hour,65 Hours Logged. Hours Allowed: 57,Duty Shift,3/12/21 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 9/29/2019 12:00 AM And 9/29/2019 7:00 AM. Should Have 8 Hrs.,Night Float,9/29/19 7:00,MED:IM:SLUH:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 12/22/2018 1:00 AM And 12/22/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,12/22/18 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 11/13/2019 11:00 PM And 11/14/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,11/14/19 6:00,MED:IM:SLUH:BROWN
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 7/28/2020 11:00 PM And 7/29/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/29/20 6:00,MED:IM:SLUH:RED
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 1/22/2021 12:00 AM And 1/22/2021 7:00 AM. Should Have 8 Hrs.,Duty Shift,1/22/21 7:00,MED:IM:VAMC:D TEAM
+PRG 3,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Duty Shift,3/18/21 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME 80 Hour,171 Hours Logged. Hours Allowed: 160,Duty Shift,7/14/18 6:00,MED:IM:SLUH:WHITE
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 10/30/2018 11:00 PM And 10/31/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,10/31/18 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 7/3/2020 1:00 AM And 7/3/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/3/20 6:00,MED:IM:VAMC:D TEAM
+PRG 1,ACGME 80 Hour,84 Hours Logged. Hours Allowed: 80,Night Float,1/10/21 19:00,MED:IM:SLUH:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 11/13/2019 11:00 PM And 11/14/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,11/14/19 6:00,MED:IM:VAMC:D TEAM
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 10/27/2018 11:00 PM And 10/28/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,10/28/18 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Duty Shift,12/27/18 19:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 8/12/2018 2:00 AM And 8/12/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,8/12/18 7:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 8/16/2018 10:00 PM And 8/17/2018 4:00 AM. Should Have 8 Hrs.,Duty Shift,8/17/18 4:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 8/21/2018 11:00 PM And 8/22/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/22/18 5:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 4 Hrs Off Between 8/27/2018 12:00 AM And 8/27/2018 4:00 AM. Should Have 8 Hrs.,Duty Shift,8/27/18 4:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/4/2018 9:00 PM And 9/5/2018 4:00 AM. Should Have 8 Hrs.,Duty Shift,9/5/18 4:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 4 Hrs Off Between 9/6/2018 12:00 AM And 9/6/2018 4:00 AM. Should Have 8 Hrs.,Duty Shift,9/6/18 4:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME 80 Hour,358 Hours Logged. Hours Allowed: 320,Duty Shift,9/7/18 5:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 3 Hrs Off Between 12/7/2018 3:00 AM And 12/7/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/7/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 1/10/2019 11:00 PM And 1/11/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/11/19 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 4/24/2019 11:00 PM And 4/25/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,4/25/19 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 5 Hrs Off Between 7/3/2020 12:00 AM And 7/3/2020 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/3/20 5:00,MED:IM:VAMC:D TEAM
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 7/6/2020 11:00 PM And 7/7/2020 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/7/20 5:00,MED:IM:VAMC:D TEAM
+PRG 3,ACGME 80 Hour,65 Hours Logged. Hours Allowed: 57,Duty Shift,2/12/21 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 7/1/2020 11:00 PM And 7/2/2020 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/2/20 5:00,MED:IM:SLUH:RED
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/14/2020 12:00 PM And 12/14/2020 7:00 PM. Should Have 8 Hrs.,Night Float,12/14/20 19:00,MED:IM:SLUH:NIGHT FLOAT
+PRG 1,ACGME 80 Hour,169 Hours Logged. Hours Allowed: 160,Night Float,12/27/20 19:00,MED:IM:SLUH:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 7/3/2019 10:00 PM And 7/4/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/4/19 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME 80 Hour,163 Hours Logged. Hours Allowed: 160,Duty Shift,7/14/19 8:00,MED:IM:SLUH:MICU
+PRG 1,ACGME 80 Hour,77 Hours Logged. Hours Allowed: 69,Night Float,12/28/19 19:00,MED:IM:SLUH:NIGHT FLOAT
+PRG 2,ACGME 80 Hour,65 Hours Logged. Hours Allowed: 57,Night Float,12/24/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 10/26/2018 12:00 AM And 10/26/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,10/26/18 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME 80 Hour,74 Hours Logged. Hours Allowed: 69,Night Float,8/22/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 7/20/2019 11:00 PM And 7/21/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/21/19 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 8/5/2019 1:00 PM And 8/5/2019 8:00 PM. Should Have 8 Hrs.,Night Float,8/5/19 20:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 9/10/2019 12:00 AM And 9/10/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,9/10/19 6:00,MED:IM:VAMC:C TEAM
+PRG 1,ACGME 80 Hour,325 Hours Logged. Hours Allowed: 320,Duty Shift,2/23/20 5:00,MED:IM:SLUH:YELLOW
+PRG 2,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Night Float,9/2/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME 80 Hour,75 Hours Logged. Hours Allowed: 69,Night Float,3/1/21 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME 80 Hour,92 Hours Logged. Hours Allowed: 91,Duty Shift,6/30/21 7:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 7/8/2019 11:00 PM And 7/9/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/9/19 6:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME 80 Hour,73 Hours Logged. Hours Allowed: 57,Night Float,1/2/20 19:00,MED:IM:SLUH:AMBULATORY CARE
+PRG 3,ACGME 80 Hour,69.77 Hours Logged. Hours Allowed: 69,Night Float,5/25/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 7/30/2018 11:00 PM And 7/31/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/31/18 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/11/2018 11:00 PM And 8/12/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/12/18 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/22/2018 10:00 PM And 8/23/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/23/18 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME 80 Hour,328 Hours Logged. Hours Allowed: 320,Duty Shift,8/26/18 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 4 Hrs Off Between 12/7/2018 3:00 AM And 12/7/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,12/7/18 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 1/18/2019 11:00 PM And 1/19/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/19/19 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 3/6/2019 12:00 PM And 3/6/2019 7:00 PM. Should Have 8 Hrs.,Duty Shift,3/6/19 19:00,MED:IM:SLUH:SLEEP CLINIC
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 3/13/2019 12:00 AM And 3/13/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,3/13/19 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 7/3/2019 11:00 PM And 7/4/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/4/19 6:00,MED:IM:SLUH:GREEN
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 7/8/2019 11:00 PM And 7/9/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/9/19 6:00,MED:IM:SLUH:GREEN
+PRG 3,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Night Float,2/20/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME 80 Hour,320 Hours Logged. Hours Allowed: 309,Post Call/Transfer of Care,8/10/18 5:00,MED:IM:VAMC:C TEAM
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 12/4/2018 12:00 AM And 12/4/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/4/18 5:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME 80 Hour,272 Hours Logged. Hours Allowed: 251,Duty Shift,12/22/18 5:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME 80 Hour,69 Hours Logged. Hours Allowed: 57,Duty Shift,1/2/19 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME 80 Hour,326 Hours Logged. Hours Allowed: 320,Duty Shift,1/30/19 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME 80 Hour,344 Hours Logged. Hours Allowed: 320,Duty Shift,4/24/19 4:00,MED:IM:SLUH:MICU
+PRG 1,ACGME 80 Hour,80 Hours Logged. Hours Allowed: 69,Duty Shift,4/30/19 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME 80 Hour,64 Hours Logged. Hours Allowed: 57,Call (in-house),9/10/19 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 3,ACGME 80 Hour,73 Hours Logged. Hours Allowed: 69,Night Float,3/29/21 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 4 Hrs Off Between 12/19/2020 8:00 PM And 12/20/2020 12:00 AM. Should Have 8 Hrs.,Duty Shift,12/20/20 0:00,MED:IM:SLUH:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 4 Hrs Off Between 8/14/2018 2:00 AM And 8/14/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/14/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 8/17/2018 11:00 PM And 8/18/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/18/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 8/21/2018 11:00 PM And 8/22/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/22/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 2 Hrs Off Between 1/21/2020 5:00 PM And 1/21/2020 7:00 PM. Should Have 8 Hrs.,Duty Shift,1/21/20 19:00,MED:IM:SLUH:AMBULATORY CARE
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 1/24/2020 1:00 PM And 1/24/2020 7:00 PM. Should Have 8 Hrs.,Duty Shift,1/24/20 19:00,MED:IM:SLUH:AMBULATORY CARE
+PRG 2,ACGME 80 Hour,72 Hours Logged. Hours Allowed: 69,Duty Shift,2/18/21 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME 80 Hour,161 Hours Logged. Hours Allowed: 160,Duty Shift,11/16/18 6:00,MED:IM:SLUH:SLEEP CLINIC
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 3/13/2019 6:00 PM And 3/14/2019 12:00 AM. Should Have 8 Hrs.,Duty Shift,3/14/19 0:00,MED:IM:VAMC:A TEAM
+PRG 3,ACGME 80 Hour,75 Hours Logged. Hours Allowed: 69,Duty Shift,11/26/20 18:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME 80 Hour,81 Hours Logged. Hours Allowed: 80,Duty Shift,5/30/21 7:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Duty Shift,6/30/21 7:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME 80 Hour,83 Hours Logged. Hours Allowed: 80,Duty Shift,2/7/21 6:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME 80 Hour,83 Hours Logged. Hours Allowed: 80,Duty Shift,4/4/21 8:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME 80 Hour,58 Hours Logged. Hours Allowed: 57,Duty Shift,9/20/20 6:00,MED:IM:SLUH:YELLOW
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 1/12/2019 12:00 AM And 1/12/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/12/19 6:00,MED:IM:SLUH:MICU
+PRG 3,ACGME 80 Hour,65 Hours Logged. Hours Allowed: 57,Duty Shift,5/8/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME 80 Hour,35 Hours Logged. Hours Allowed: 34,Duty Shift,11/15/20 6:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME Short Break,Only 4 Hrs Off Between 7/18/2018 2:00 AM And 7/18/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/18/18 6:00,MED:IM:VAMC:D TEAM
+PRG 1,ACGME Short Break,Only 7.25 Hrs Off Between 8/12/2018 10:45 PM And 8/13/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/13/18 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 8/18/2018 1:00 AM And 8/18/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/18/18 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME 80 Hour,320.25 Hours Logged. Hours Allowed: 320,Duty Shift,9/7/18 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 12/6/2018 1:00 AM And 12/6/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/6/18 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 12/10/2018 12:00 AM And 12/10/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/10/18 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 12/14/2018 12:00 AM And 12/14/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/14/18 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/17/2018 11:00 PM And 12/18/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/18/18 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 12/27/2018 12:00 AM And 12/27/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/27/18 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 3/2/2019 11:00 PM And 3/3/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,3/3/19 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 3/3/2019 11:00 PM And 3/4/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,3/4/19 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME 80 Hour,337 Hours Logged. Hours Allowed: 320,Duty Shift,3/27/19 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME 80 Hour,151 Hours Logged. Hours Allowed: 149,Night Float,6/4/19 18:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/1/2019 11:00 PM And 8/2/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/2/19 6:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/14/2019 12:00 AM And 8/14/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,8/14/19 7:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 10/3/2019 12:00 AM And 10/3/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,10/3/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7.75 Hrs Off Between 10/10/2019 10:00 PM And 10/11/2019 5:45 AM. Should Have 8 Hrs.,Duty Shift,10/11/19 5:45,MED:IM:SLUH:CCS
+PRG 2,ACGME 80 Hour,342.58 Hours Logged. Hours Allowed: 320,Duty Shift,10/20/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 3/14/2020 11:00 PM And 3/15/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,3/15/20 6:00,MED:IM:SLUH:BRONZE
+PRG 2,ACGME 80 Hour,325.5 Hours Logged. Hours Allowed: 320,Duty Shift,4/3/20 6:00,MED:IM:SLUH:BRONZE
+PRG 3,ACGME 80 Hour,35 Hours Logged. Hours Allowed: 34,Duty Shift,9/20/20 8:00,MED:IM:SLUH:GREEN
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 10/20/2020 11:00 PM And 10/21/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,10/21/20 6:00,MED:IM:SLUH:MICU
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 5/18/2019 11:00 PM And 5/19/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,5/19/19 6:00,MED:IM:VAMC:A TEAM
+PRG 1,ACGME 80 Hour,161 Hours Logged. Hours Allowed: 160,Duty Shift,7/14/18 5:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 8/20/2018 11:00 PM And 8/21/2018 6:00 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,8/21/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 8/28/2018 11:00 PM And 8/29/2018 6:00 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,8/29/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/5/2018 11:00 PM And 9/6/2018 6:00 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,9/6/18 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 10/11/2018 11:00 PM And 10/12/2018 5:00 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,10/12/18 5:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/8/2018 10:00 PM And 12/9/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/9/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 12/12/2018 11:00 PM And 12/13/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/13/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/16/2018 10:00 PM And 12/17/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/17/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/20/2018 10:00 PM And 12/21/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/21/18 5:00,MED:IM:SLUH:MICU
+PRG 2,ACGME 80 Hour,324 Hours Logged. Hours Allowed: 320,Duty Shift,7/28/19 6:00,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 5 Hrs Off Between 10/24/2019 11:00 PM And 10/25/2019 4:00 AM. Should Have 8 Hrs.,Duty Shift,10/25/19 4:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME Short Break,Only 5 Hrs Off Between 10/28/2019 11:00 PM And 10/29/2019 4:00 AM. Should Have 8 Hrs.,Duty Shift,10/29/19 4:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 11/1/2019 11:00 PM And 11/2/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,11/2/19 6:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME Short Break,Only 5 Hrs Off Between 11/5/2019 11:00 PM And 11/6/2019 4:00 AM. Should Have 8 Hrs.,Duty Shift,11/6/19 4:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Night Float,11/16/19 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Duty Shift,3/2/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 3,ACGME 80 Hour,60 Hours Logged. Hours Allowed: 57,Duty Shift,1/15/21 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 9/13/2018 11:00 PM And 9/14/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,9/14/18 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 3 Hrs Off Between 10/21/2018 4:00 PM And 10/21/2018 7:00 PM. Should Have 8 Hrs.,Duty Shift,10/21/18 19:00,MED:IM:SLUH:ID CONSULT
+PRG 2,ACGME Short Break,Only 5 Hrs Off Between 11/19/2018 7:00 AM And 11/19/2018 12:00 PM. Should Have 8 Hrs.,Duty Shift,11/19/18 12:00,MED:IM:SLUH:SLEEP CLINIC
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 6/11/2019 11:00 PM And 6/12/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,6/12/19 6:00,MED:IM:SLUH:CCS
+PRG 2,ACGME 80 Hour,337 Hours Logged. Hours Allowed: 320,Call (in-house),8/26/18 6:00,MED:IM:SLUH:ACE
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 1/21/2019 11:00 PM And 1/22/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/22/19 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 5/10/2019 10:00 PM And 5/11/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,5/11/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 5/12/2019 10:00 PM And 5/13/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,5/13/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 5/15/2019 10:00 PM And 5/16/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,5/16/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 5/25/2019 10:00 PM And 5/26/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,5/26/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME 80 Hour,338 Hours Logged. Hours Allowed: 320,Duty Shift,5/31/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 6/4/2019 11:00 PM And 6/5/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,6/5/19 6:00,MED:IM:VAMC:B TEAM
+PRG 2,ACGME 80 Hour,323.33 Hours Logged. Hours Allowed: 320,Duty Shift,6/30/19 6:00,MED:IM:VAMC:B TEAM
+PRG 3,ACGME Short Break,Only 5.5 Hrs Off Between 7/1/2019 11:30 PM And 7/2/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/2/19 5:00,MED:IM:SLUH:BROWN
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 7/6/2019 11:00 PM And 7/7/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/7/19 5:00,MED:IM:SLUH:BROWN
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 7/8/2019 11:00 PM And 7/9/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,7/9/19 5:00,MED:IM:SLUH:BROWN
+PRG 1,ACGME Short Break,Only 6.67 Hrs Off Between 7/1/2019 11:00 PM And 7/2/2019 5:40 AM. Should Have 8 Hrs.,Duty Shift,7/2/19 5:40,MED:IM:VAMC:A TEAM
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 7/5/2019 11:00 PM And 7/6/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/6/19 6:00,MED:IM:VAMC:A TEAM
+PRG 2,ACGME 80 Hour,73 Hours Logged. Hours Allowed: 69,Night Float,9/25/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 12/23/2019 11:00 PM And 12/24/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/24/19 5:00,MED:IM:VAMC:D TEAM
+PRG 3,ACGME Short Break,Only 5 Hrs Off Between 3/31/2020 7:00 AM And 3/31/2020 12:00 PM. Should Have 8 Hrs.,Duty Shift,3/31/20 12:00,MED:IM:VAMC:AMBULATORY CARE
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 5/15/2020 5:00 PM And 5/15/2020 11:00 PM. Should Have 8 Hrs.,Duty Shift,5/15/20 23:00,MED:IM:VAMC:NEURO
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 5/16/2020 1:00 AM And 5/16/2020 8:00 AM. Should Have 8 Hrs.,Duty Shift,5/16/20 8:00,MED:IM:VAMC:NEURO
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 1/22/2019 12:00 AM And 1/22/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,1/22/19 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 1/26/2019 12:00 AM And 1/26/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,1/26/19 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME 80 Hour,330 Hours Logged. Hours Allowed: 320,Duty Shift,10/18/19 6:00,MED:IM:SLUH:BRONZE
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 7/31/2018 11:20 PM And 8/1/2018 6:20 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,8/1/18 6:20,MED:IM:SLUH:BROWN
+PRG 2,ACGME Short Break,Only 6.75 Hrs Off Between 8/15/2018 11:45 PM And 8/16/2018 6:30 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,8/16/18 6:30,MED:IM:SLUH:BROWN
+PRG 2,ACGME Short Break,Only 6.67 Hrs Off Between 8/21/2018 12:00 AM And 8/21/2018 6:40 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,8/21/18 6:40,MED:IM:SLUH:BROWN
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 8/24/2018 11:40 PM And 8/25/2018 6:40 AM. Should Have 8 Hrs.,Call (in-house),8/25/18 6:40,MED:IM:SLUH:BROWN
+PRG 2,ACGME 80 Hour,334.25 Hours Logged. Hours Allowed: 320,Post Call/Transfer of Care,8/26/18 6:40,MED:IM:SLUH:BROWN
+PRG 2,ACGME Short Break,Only 5.17 Hrs Off Between 8/26/2018 1:30 AM And 8/26/2018 6:40 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,8/26/18 6:40,MED:IM:SLUH:BROWN
+PRG 2,ACGME 80 Hour,273.67 Hours Logged. Hours Allowed: 263,Call (in-house),12/16/18 6:20,MED:IM:SLUH:ACE
+PRG 2,ACGME Short Break,Only 6.75 Hrs Off Between 1/24/2019 11:30 PM And 1/25/2019 6:15 AM. Should Have 8 Hrs.,Call (in-house),1/25/19 6:15,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 7.83 Hrs Off Between 1/26/2019 10:30 PM And 1/27/2019 6:20 AM. Should Have 8 Hrs.,Call (in-house),1/27/19 6:20,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME 80 Hour,354.92 Hours Logged. Hours Allowed: 320,Post Call/Transfer of Care,2/10/19 6:20,MED:IM:SLUH:HEM/ONC
+PRG 2,ACGME Short Break,Only 7.33 Hrs Off Between 3/13/2019 11:00 PM And 3/14/2019 6:20 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,3/14/19 6:20,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7.5 Hrs Off Between 3/17/2019 10:45 PM And 3/18/2019 6:15 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,3/18/19 6:15,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 6.83 Hrs Off Between 3/25/2019 11:30 PM And 3/26/2019 6:20 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,3/26/19 6:20,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7.5 Hrs Off Between 4/4/2019 10:45 PM And 4/5/2019 6:15 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,4/5/19 6:15,MED:IM:SLUH:MICU
+PRG 2,ACGME 80 Hour,321.25 Hours Logged. Hours Allowed: 320,Duty Shift,4/7/19 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 6/7/2019 12:00 AM And 6/7/2019 7:00 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,6/7/19 7:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME Short Break,Only 5 Hrs Off Between 6/15/2019 2:00 AM And 6/15/2019 7:00 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,6/15/19 7:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME Short Break,Only 7.5 Hrs Off Between 7/11/2019 11:30 PM And 7/12/2019 7:00 AM. Should Have 8 Hrs.,Post Call/Transfer of Care,7/12/19 7:00,MED:IM:SLUH:BRONZE
+PRG 2,ACGME 80 Hour,327.75 Hours Logged. Hours Allowed: 320,Call (in-house),7/28/19 7:00,MED:IM:SLUH:BRONZE
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 4/14/2020 6:00 AM And 4/14/2020 12:00 PM. Should Have 8 Hrs.,Duty Shift,4/14/20 12:00,MED:IM:SLUH:ED
+PRG 2,ACGME Short Break,Only 4 Hrs Off Between 10/29/2018 6:00 PM And 10/29/2018 10:00 PM. Should Have 8 Hrs.,Duty Shift,10/29/18 22:00,MED:IM:SLUH:ED
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 11/21/2018 10:00 PM And 11/22/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,11/22/18 5:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 3 Hrs Off Between 4/10/2019 4:00 PM And 4/10/2019 7:00 PM. Should Have 8 Hrs.,Night Float,4/10/19 19:00,MED:IM:SLUH:HOSPITALIST
+PRG 1,ACGME Short Break,Only 7.25 Hrs Off Between 7/24/2020 10:30 PM And 7/25/2020 5:45 AM. Should Have 8 Hrs.,Duty Shift,7/25/20 5:45,MED:IM:SLUH:GREEN
+PRG 1,ACGME 80 Hour,35 Hours Logged. Hours Allowed: 34,Duty Shift,7/26/20 6:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME Short Break,Only 7.02 Hrs Off Between 1/2/2021 9:39 PM And 1/3/2021 4:40 AM. Should Have 8 Hrs.,Duty Shift,1/3/21 4:40,MED:IM:SLUH:WHITE
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 1/19/2019 11:00 PM And 1/20/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/20/19 6:00,MED:IM:SLUH:BRONZE
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 3/13/2019 11:00 PM And 3/14/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,3/14/19 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 7/7/2019 11:00 PM And 7/8/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/8/19 6:00,MED:IM:SLUH:MICU
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 8/3/2018 11:00 PM And 8/4/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/4/18 6:00,MED:IM:SLUH:CARDS CONSULT
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 11/22/2018 11:00 PM And 11/23/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,11/23/18 5:00,MED:IM:SLUH:MICU
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 12/4/2018 10:00 PM And 12/5/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/5/18 5:00,MED:IM:SLUH:MICU
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 12/8/2018 10:00 PM And 12/9/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/9/18 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/1/2019 11:00 PM And 9/2/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,9/2/19 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Night Float,12/27/19 19:00,MED:IM:SLUH:CARDS CONSULT
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 5/18/2019 12:00 AM And 5/18/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,5/18/19 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 1/16/2021 11:00 PM And 1/17/2021 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/17/21 6:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 2/16/2021 12:00 AM And 2/16/2021 6:00 AM. Should Have 8 Hrs.,Duty Shift,2/16/21 6:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 2/16/2021 11:00 PM And 2/17/2021 6:00 AM. Should Have 8 Hrs.,Duty Shift,2/17/21 6:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME 80 Hour,101 Hours Logged. Hours Allowed: 80,Duty Shift,2/21/21 6:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME 80 Hour,36 Hours Logged. Hours Allowed: 34,Duty Shift,5/2/21 6:00,MED:IM:SLUH:GREEN
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 10/5/2019 10:00 PM And 10/6/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,10/6/19 5:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/23/2019 10:00 PM And 12/24/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,12/24/19 5:00,MED:IM:VAMC:D TEAM
+PRG 2,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Night Float,11/9/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 7/21/2018 12:00 AM And 7/21/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,7/21/18 7:00,MED:IM:VAMC:C TEAM
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 7/25/2018 12:00 AM And 7/25/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,7/25/18 7:00,MED:IM:VAMC:C TEAM
+PRG 3,ACGME Short Break,Only 1 Hrs Off Between 7/30/2018 12:00 PM And 7/30/2018 1:00 PM. Should Have 8 Hrs.,Continuity Clinic,7/30/18 13:00,MED:IM:SLUH:ACS DOB
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 7/10/2018 12:00 AM And 7/10/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,7/10/18 7:00,MED:IM:SLUH:MICU
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 7/28/2018 1:00 PM And 7/28/2018 8:00 PM. Should Have 8 Hrs.,Night Float,7/28/18 20:00,MED:IM:SLUH:MICU
+PRG 3,ACGME 80 Hour,333 Hours Logged. Hours Allowed: 331,Night Float,7/29/18 20:00,MED:IM:SLUH:MICU
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 11/22/2018 12:00 AM And 11/22/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,11/22/18 6:00,MED:IM:VAMC:PALLIATIVE CONSULT
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/7/2019 11:00 PM And 12/8/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/8/19 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 3/8/2020 12:00 AM And 3/8/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,3/8/20 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME 80 Hour,5 Hours Logged. Hours Allowed: 0,Night Float,6/30/20 19:00,gme:VACATION:SLUH
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 7/26/2019 7:00 PM And 7/27/2019 12:00 AM. Should Have 8 Hrs.,Duty Shift,7/27/19 0:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 7/27/2019 1:00 AM And 7/27/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/27/19 6:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 7/28/2019 12:00 AM And 7/28/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,7/28/19 7:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 8/11/2019 10:00 PM And 8/12/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/12/19 5:00,MED:IM:SLUH:MICU
+PRG 2,ACGME 80 Hour,84 Hours Logged. Hours Allowed: 80,Duty Shift,8/6/20 18:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 5/30/2021 9:00 PM And 5/31/2021 4:00 AM. Should Have 8 Hrs.,Duty Shift,5/31/21 4:00,MED:IM:SLUH:MICU
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 8/3/2018 12:00 AM And 8/3/2018 7:00 AM. Should Have 8 Hrs.,Night Float,8/3/18 7:00,MED:IM:VAMC:C TEAM
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 8/4/2018 12:00 AM And 8/4/2018 7:00 AM. Should Have 8 Hrs.,Night Float,8/4/18 7:00,MED:IM:VAMC:C TEAM
+PRG 3,ACGME Short Break,Only 3 Hrs Off Between 8/4/2018 10:00 PM And 8/5/2018 1:00 AM. Should Have 8 Hrs.,Night Float,8/5/18 1:00,MED:IM:SLUH:NIGHT FLOAT
+PRG 3,ACGME Short Break,Only 6 Hrs Off Between 2/9/2019 6:00 PM And 2/10/2019 12:00 AM. Should Have 8 Hrs.,Duty Shift,2/10/19 0:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 1/9/2019 11:00 PM And 1/10/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/10/19 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 8/10/2019 11:00 PM And 8/11/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/11/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME 80 Hour,327 Hours Logged. Hours Allowed: 320,Duty Shift,8/25/19 5:00,MED:IM:SLUH:CCS
+PRG 3,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Duty Shift,4/15/21 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME 80 Hour,67.5 Hours Logged. Hours Allowed: 57,Duty Shift,8/28/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME 80 Hour,82 Hours Logged. Hours Allowed: 80,Duty Shift,10/4/20 5:30,MED:IM:VAMC:PALLIATIVE CONSULT
+PRG 2,ACGME Short Break,Only 2 Hrs Off Between 10/5/2020 6:00 PM And 10/5/2020 8:00 PM. Should Have 8 Hrs.,Duty Shift,10/5/20 20:00,MED:IM:VAMC:NEURO
+PRG 1,ACGME Short Break,Only 1 Hrs Off Between 8/1/2018 7:00 PM And 8/1/2018 8:00 PM. Should Have 8 Hrs.,Duty Shift,8/1/18 20:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 8/2/2018 11:00 PM And 8/3/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/3/18 5:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME 80 Hour,323 Hours Logged. Hours Allowed: 309,Duty Shift,8/10/18 7:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME 80 Hour,130 Hours Logged. Hours Allowed: 126,Night Float,12/22/18 19:00,MED:IM:VAMC:B TEAM
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 5/6/2019 12:00 AM And 5/6/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,5/6/19 7:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 4 Hrs Off Between 7/17/2018 11:00 PM And 7/18/2018 3:00 AM. Should Have 8 Hrs.,Duty Shift,7/18/18 3:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 7/18/2018 8:00 PM And 7/19/2018 3:00 AM. Should Have 8 Hrs.,Duty Shift,7/19/18 3:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 7/20/2018 8:00 PM And 7/21/2018 3:00 AM. Should Have 8 Hrs.,Duty Shift,7/21/18 3:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 3 Hrs Off Between 7/23/2018 12:00 AM And 7/23/2018 3:00 AM. Should Have 8 Hrs.,Duty Shift,7/23/18 3:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 7/27/2018 9:00 PM And 7/28/2018 3:00 AM. Should Have 8 Hrs.,Duty Shift,7/28/18 3:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 3 Hrs Off Between 8/2/2018 12:00 AM And 8/2/2018 3:00 AM. Should Have 8 Hrs.,Duty Shift,8/2/18 3:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 8/6/2018 9:00 PM And 8/7/2018 3:00 AM. Should Have 8 Hrs.,Duty Shift,8/7/18 3:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME 80 Hour,370 Hours Logged. Hours Allowed: 309,Duty Shift,8/10/18 3:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/13/2018 9:00 PM And 9/14/2018 4:00 AM. Should Have 8 Hrs.,Duty Shift,9/14/18 4:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/23/2018 9:00 PM And 9/24/2018 4:00 AM. Should Have 8 Hrs.,Duty Shift,9/24/18 4:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/28/2018 9:00 PM And 9/29/2018 4:00 AM. Should Have 8 Hrs.,Duty Shift,9/29/18 4:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 10/3/2018 9:00 PM And 10/4/2018 4:00 AM. Should Have 8 Hrs.,Duty Shift,10/4/18 4:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME 80 Hour,334 Hours Logged. Hours Allowed: 320,Duty Shift,10/5/18 5:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 4 Hrs Off Between 1/18/2019 2:00 AM And 1/18/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/18/19 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 4 Hrs Off Between 1/22/2019 2:00 AM And 1/22/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,1/22/19 6:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 3/11/2019 12:00 AM And 3/11/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,3/11/19 7:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 3/12/2019 12:00 AM And 3/12/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,3/12/19 7:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 3/15/2019 1:00 AM And 3/15/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,3/15/19 7:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 3/29/2019 1:00 AM And 3/29/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,3/29/19 7:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 5/16/2019 11:00 PM And 5/17/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,5/17/19 5:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 5/29/2019 10:00 PM And 5/30/2019 5:00 AM. Should Have 8 Hrs.,Duty Shift,5/30/19 5:00,MED:IM:SLUH:CCS
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 3/15/2019 11:00 PM And 3/16/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,3/16/19 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7.25 Hrs Off Between 7/4/2019 10:30 PM And 7/5/2019 5:45 AM. Should Have 8 Hrs.,Duty Shift,7/5/19 5:45,MED:IM:SLUH:WHITE
+PRG 1,ACGME Short Break,Only 6.5 Hrs Off Between 11/7/2019 11:30 PM And 11/8/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,11/8/19 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME 80 Hour,106 Hours Logged. Hours Allowed: 103,Duty Shift,6/8/21 6:00,MED:IM:SLUH:YELLOW
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 7/31/2020 12:00 PM And 7/31/2020 7:00 PM. Should Have 8 Hrs.,Duty Shift,7/31/20 19:00,MED:IM:VAMC:GI ELECTIVE
+PRG 3,ACGME Short Break,Only 7 Hrs Off Between 9/20/2018 12:00 AM And 9/20/2018 7:00 AM. Should Have 8 Hrs.,Duty Shift,9/20/18 7:00,MED:IM:VAMC:VA FLOOR (TBA)
+PRG 1,ACGME 80 Hour,165 Hours Logged. Hours Allowed: 160,Duty Shift,7/25/20 19:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 11/24/2020 11:00 PM And 11/25/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,11/25/20 6:00,MED:IM:SLUH:YELLOW
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/4/2020 11:00 PM And 12/5/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/5/20 6:00,MED:IM:SLUH:GREEN
+PRG 3,ACGME Short Break,Only 3 Hrs Off Between 11/1/2019 4:00 PM And 11/1/2019 7:00 PM. Should Have 8 Hrs.,Night Float,11/1/19 19:00,MED:IM:VAMC:RADIOLOGY ELECTIVE
+PRG 3,ACGME Short Break,Only 5 Hrs Off Between 4/23/2020 2:00 PM And 4/23/2020 7:00 PM. Should Have 8 Hrs.,Night Float,4/23/20 19:00,MED:IM:VAMC:NEPHRO CONSULTS
+PRG 3,ACGME Short Break,Only 5 Hrs Off Between 4/24/2020 7:00 AM And 4/24/2020 12:00 PM. Should Have 8 Hrs.,Clinic,4/24/20 12:00,MED:IM:VAMC:NEPHRO CONSULTS
+PRG 2,ACGME 80 Hour,326 Hours Logged. Hours Allowed: 320,Night Float,3/9/19 19:00,MED:IM:SLUH:NIGHT FLOAT
+PRG 3,ACGME 80 Hour,58 Hours Logged. Hours Allowed: 57,Duty Shift,5/19/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 2,ACGME Short Break,Only 5 Hrs Off Between 12/12/2018 3:00 PM And 12/12/2018 8:00 PM. Should Have 8 Hrs.,Call (in-house),12/12/18 20:00,MED:IM:VAMC:NEPHRO CONSULTS
+PRG 2,ACGME Short Break,Only 6.5 Hrs Off Between 5/6/2020 12:00 AM And 5/6/2020 6:30 AM. Should Have 8 Hrs.,Call (in-house),5/6/20 6:30,MED:IM:VAMC:AMBULATORY CARE
+PRG 3,ACGME 80 Hour,70 Hours Logged. Hours Allowed: 69,Night Float,5/24/21 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 1,ACGME Short Break,Only 7.5 Hrs Off Between 11/18/2020 10:00 PM And 11/19/2020 5:30 AM. Should Have 8 Hrs.,Duty Shift,11/19/20 5:30,MED:IM:VAMC:B TEAM
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 7/9/2020 12:00 AM And 7/9/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/9/20 6:00,MED:IM:VAMC:B TEAM
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 7/12/2020 11:00 PM And 7/13/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/13/20 6:00,MED:IM:VAMC:B TEAM
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 7/24/2020 11:00 PM And 7/25/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,7/25/20 6:00,MED:IM:VAMC:B TEAM
+PRG 3,ACGME Short Break,Only 3 Hrs Off Between 12/28/2019 9:00 PM And 12/29/2019 12:00 AM. Should Have 8 Hrs.,Duty Shift,12/29/19 0:00,MED:IM:SLUH:MICU
+PRG 3,ACGME 80 Hour,66 Hours Logged. Hours Allowed: 57,Night Float,4/10/20 19:00,MED:IM:VAMC:NIGHT FLOAT
+PRG 3,ACGME 80 Hour,84 Hours Logged. Hours Allowed: 80,Duty Shift,1/10/21 6:00,MED:IM:SLUH:RED
+PRG 1,ACGME Short Break,Only 5 Hrs Off Between 8/15/2018 12:00 AM And 8/15/2018 5:00 AM. Should Have 8 Hrs.,Duty Shift,8/15/18 5:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 8/19/2018 11:00 PM And 8/20/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/20/18 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 9/3/2018 11:00 PM And 9/4/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,9/4/18 6:00,MED:IM:SLUH:SLU FLOOR (TBA)
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/4/2018 11:00 PM And 12/5/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/5/18 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 7 Hrs Off Between 12/14/2018 11:00 PM And 12/15/2018 6:00 AM. Should Have 8 Hrs.,Duty Shift,12/15/18 6:00,MED:IM:SLUH:MICU
+PRG 1,ACGME Short Break,Only 6 Hrs Off Between 3/16/2019 12:00 AM And 3/16/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,3/16/19 6:00,MED:IM:VAMC:WALK IN CLINIC
+PRG 2,ACGME 80 Hour,344 Hours Logged. Hours Allowed: 320,Duty Shift,7/28/19 19:00,MED:IM:SLUH:CCS
+PRG 2,ACGME Short Break,Only 6 Hrs Off Between 8/27/2019 12:00 AM And 8/27/2019 6:00 AM. Should Have 8 Hrs.,Duty Shift,8/27/19 6:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 4 Hrs Off Between 8/28/2019 3:00 AM And 8/28/2019 7:00 AM. Should Have 8 Hrs.,Duty Shift,8/28/19 7:00,MED:IM:SLUH:MICU
+PRG 2,ACGME Short Break,Only 7 Hrs Off Between 4/29/2020 11:00 PM And 4/30/2020 6:00 AM. Should Have 8 Hrs.,Duty Shift,4/30/20 6:00,MED:IM:SLUH:MICU

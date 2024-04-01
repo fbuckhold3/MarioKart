@@ -5,18 +5,20 @@ library(tidyverse)
 library(mice)
 library(VIM)
 library(lattice)
-library(plyr)
 #### Import 3 data sets
-data.21 <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1sX4Ffnf_EnYb3XsfQJx1_Y-iwJCCOYlU5TAbh7q4DFM/edit#gid=61841258')
-data.20 <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1KG1isuMrWhowBzsUHbP1BXB6vx0nnSffmJsleXmUSK8/edit?usp=sharing')
-data.19 <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1WDLhYTpkoakLlQF1yklGzIxJXY7Dqsw0Htrh1fPl2Mo/edit?usp=sharing')
+setwd('~/Documents/GitHub/MarioKart')
+#### data.21 <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1sX4Ffnf_EnYb3XsfQJx1_Y-iwJCCOYlU5TAbh7q4DFM/edit#gid=61841258')
+#### data.20 <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1KG1isuMrWhowBzsUHbP1BXB6vx0nnSffmJsleXmUSK8/edit?usp=sharing')
+### data.19 <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1WDLhYTpkoakLlQF1yklGzIxJXY7Dqsw0Htrh1fPl2Mo/edit?usp=sharing')
 
+data.21 <- read_csv('FY21 daily tally sheet - ACADEMIC TEAMS.csv')
+data.20 <- read_csv('FY20 daily tally sheet - ACADEMIC TEAMS.csv')
+data.19 <- read_csv('FY19 daily tally sheet - ACADEMIC TEAMS.csv')
 
 ### Erase empty/extra cells, rename columns
 
 colnames <- c('day', 'date', 'tot_red', 'new_red', 'cons_red', 'tot_green', 'new_green', 'cons_green', 'tot_white', 'new_white', 'cons_white', 'tot_brown', 'new_brown', 'cons_brown', 'tot_yell', 'new_yell', 'cons_yell', 'cens_tot', 'cens_new', 'cens_cons')
-colnames(data.21) <- colnames
-colnames(data.20) <- colnames
+
 data.21 <- data.21[-c(1, 366:369),]
 data.20 <- data.20[-c(1, 367:467),]
 
@@ -105,7 +107,7 @@ post.fin$ptperteam <- post.fin$total/4
 summary(pre.fin)
 summary(post.fin)
 
-### Simple calculations comparing median patient census (could alternately )
+### Simple calculations comparing median patient census 
 
 ### Pre (24 days working) patients 
 median(pre.fin$ptperteam)*24
@@ -137,7 +139,7 @@ post.fin %>%
 # Rolling census
 
 pre.fin$Schedule <- 'Traditional'
-post.fin$Schedule <- 'Matrix'
+post.fin$Schedule <- 'MarioKart'
 plot.data <- bind_rows(pre.fin, post.fin)
 
 boxplot <- ggplot(plot.data, aes(x=Schedule, y=total, fill=Schedule))+
@@ -154,6 +156,131 @@ boxplot2 <- ggplot(plot.data, aes(x=Schedule, y=ptperteam, fill=Schedule))+
   scale_fill_discrete(name="")
 
 boxplot2
+
+
+### Duty hours
+library(lubridate)
+duty <- read.csv('/Users/fredbuckhold/Documents/GitHub/MarioKart/logs ver 2.csv')
+
+### Convert dates
+duty$date <- mdy_hm(duty$Log.Date)
+duty$date <- date(duty$date)
+
+
+
+
+
+### create list of sequential dates over study period to merge duty hour data and create dataframe for analysis.
+date <- as.Date('2018-07-01')
+len <- 1096
+
+as.data.frame(seq(date, by = 'day', length.out = len)) -> dates
+colnames(dates) <- c("date")
+
+### Investigation of 80-hour violations over 4 weeks rather than weekly reporting
+duty %>%
+  dplyr::filter(Rule == 'ACGME 80 Hour') %>%
+  filter(str_detect(Description, '320'))
+
+duty %>% 
+  pivot_wider(names_from = Rule,
+              values_from = Log.Date) %>%
+  mutate(short = if_else(is.na(`ACGME Short Break`), 0, 1),
+         `80_hour` = if_else(is.na(`ACGME 80 Hour`), 0, 1)) %>%
+  select (date, Rotation, short, `80_hour`) %>%
+  right_join(dates) %>%
+  arrange(date)-> duty.hour 
+
+duty.hour[c('short', '80_hour')][is.na(duty.hour[c('short', '80_hour')])] <- 0
+
+### Now need to sort in GIM v. total; combine same dates into frequency...
+duty.hour %>% 
+  subset(date <= '2020-03-31') -> pre.duty
+
+duty.hour %>% 
+  subset(date >= '2020-04-01') -> post.duty
+
+### Create dataframe for general inpatient service, as compared to the entire program
+duty.hour %>%
+  filter(Rotation == 'MED:IM:SLUH:YELLOW' | Rotation == 'MED:IM:SLUH:RED' | Rotation == "MED:IM:SLUH:WHITE" | Rotation == "MED:IM:SLUH:GREEN" | Rotation == "MED:IM:SLUH:BROWN" | Rotation == "MED:IM:SLUH:ACE" | Rotation == "MED:IM:SLUH:SLU FLOOR (TBA)") -> gim.duty
+
+gim.duty %>%
+  subset(date <= '2020-03-31') -> pre.gim.duty
+
+gim.duty %>%
+  subset(date >= '2020-04-01') -> post.gim.duty
+  
+### looking at short breaks:
+#### total duty hours
+pre.duty %>%
+  select(date, short) %>%
+  group_by(date) %>%
+  dplyr::summarise(total = sum(short)) -> pre.duty.short
+
+sum(pre.duty.short$total) / 20
+
+post.duty %>%
+  select(date, short) %>%
+  group_by(date) %>%
+  dplyr::summarise(total = sum(short)) -> post.duty.short 
+
+sum(post.duty.short$total) / 15
+
+t.test(pre.duty.short$total, post.duty.short$total, alternative = "two.sided", var.equal = FALSE)
+
+#### just for GIM:
+pre.gim.duty %>% 
+  select(date, short) %>%
+  group_by(date) %>%
+  dplyr::summarise(total = sum(short)) -> pre.gim.short
+
+post.gim.duty %>%
+  select(date, short) %>%
+  group_by(date) %>%
+  dplyr::summarise(total = sum(short)) -> post.gim.short
+
+sum(pre.gim.short$total) / 20
+sum(post.gim.short$total) / 15
+
+t.test(pre.gim.short$total, post.gim.short$total, alternative = "two.sided", var.equal = FALSE)
+
+
+### 80 hour
+
+pre.duty %>%
+  select(date, `80_hour`) %>%
+  group_by(date) %>%
+  dplyr::summarise(total = sum(`80_hour`)) -> pre.duty.eight
+
+post.duty %>%
+  select(date, `80_hour`) %>%
+  group_by(date) %>%
+  dplyr::summarise(total = sum(`80_hour`)) -> post.duty.eight
+
+sum(pre.duty.eight$total)/20
+sum(post.duty.eight$total)/15
+
+t.test(pre.duty.eight$total, post.duty.eight$total, alternative = "two.sided", var.equal = FALSE)
+
+#### just for GIM:
+pre.gim.duty %>% 
+  select(date, `80_hour`) %>%
+  group_by(date) %>%
+  dplyr::summarise(total = sum(`80_hour`)) -> pre.gim.eight
+
+post.gim.duty %>%
+  select(date, `80_hour`) %>%
+  group_by(date) %>%
+  dplyr::summarise(total = sum(`80_hour`)) -> post.gim.eight
+
+sum(pre.gim.eight$total) / 20
+sum(post.gim.eight$total) / 15
+
+t.test(pre.gim.eight$total, post.gim.eight$total, alternative = "two.sided", var.equal = FALSE)
+
+
+
+
 
 
 
